@@ -5,6 +5,11 @@ import java.util.Scanner;
 public class ContaTerminal {
     public static void main(String[] args) {
 
+        //TODO: conhecer e importar a class scanner
+        //TODO: exibir as mensagens para o nosso usuario
+        //TODO: Obter da class scanner os valores digitados no terminal
+        //TODO: exibir a mensagem criada
+
         Scanner read = new Scanner(System.in);
 
         Conta conta = new Conta();
@@ -23,10 +28,5 @@ public class ContaTerminal {
         System.out.println("Nome Cliente:." + conta.getNomeCliente());
         System.out.println("Saldo:........" + conta.getSaldo());
 
-
-        //TODO: conhecer e importar a class scanner
-        //TODO: exibir as mensagens para o nosso usuario
-        //TODO: Obter da class scanner os valores digitados no terminal
-        //TODO: exibir a mensagem criada
     }
 }
